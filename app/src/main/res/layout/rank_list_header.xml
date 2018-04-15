@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+
+        <TextView
+            android:id="@+id/rankTeamNameTxtVw"
+            android:layout_column="1"
+            android:text="Takim Adi"
+            android:layout_span="3"
+            android:textSize="15sp"
+            android:textColor="@color/first"
+            android:textStyle="bold"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/rankTeamIdeaTxtVw"
+            android:layout_column="2"
+            android:text="Fikir"
+            android:textColor="@color/first"
+            android:layout_span="5"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:gravity="left"
+            />
+
+        <TextView
+            android:id="@+id/rankTeamPointTxtVw"
+            android:layout_column="3"
+            android:padding="5sp"
+            android:text="Puan"
+            android:textSize="15sp"
+            android:textColor="@color/first"
+            android:textStyle="bold"
+            android:gravity="right"
+            />
+    </TableRow>
+
+
+</TableLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="*"
+    android:background="@drawable/rounded_rank_layout"
+    >
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        >
+        <TextView
+            android:id="@+id/rankTeamTxtVw"
+            android:layout_column="0"
+            android:padding="5sp"
+            android:text="1"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/rankTeamNameTxtVw"
+            android:layout_column="1"
+            android:padding="10sp"
+            android:text="takim adi con"
+            android:layout_span="3"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/rankTeamIdeaTxtVw"
+            android:layout_column="2"
+            android:padding="3sp"
+            android:text="en uzunfikir fggfgfgf adı benimdr i"
+            android:textColor="@android:color/white"
+            android:layout_span="5"
+            android:textSize="12sp"
+            android:gravity="left"
+            />
+        <ImageView
+            android:id="@+id/rankTeamCupImgVw"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:padding="5sp"
+            android:layout_column="3"
+            android:src="@drawable/goldencup"
+            android:gravity="left"
+            />
+        <TextView
+            android:id="@+id/rankTeamPointTxtVw"
+            android:layout_column="4"
+            android:layout_width="5dp"
+            android:padding="5sp"
+            android:text="9"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+    </TableRow>
+
+
+</TableLayout>
